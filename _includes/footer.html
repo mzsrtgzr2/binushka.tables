@@ -1,7 +1,7 @@
 <!-- begin footer -->
 <footer class="footer">
 
-  <div class="footer__gallery">
+  <!-- <div class="footer__gallery">
     {% if site.data.settings.gallery %}
     <div class="gallery">
       {% for image in site.data.settings.gallery.gallery__images %}
@@ -11,7 +11,7 @@
       {% endfor %}
     </div>
     {% endif %}
-  </div>
+  </div> -->
 
   <div class="container">
     <div class="row">
@@ -21,33 +21,26 @@
           <div class="container">
             <div class="row">
       
-              <div class="col col-8 col-d-12">
+              <div class="col col-10 col-d-12">
                 <div class="footer__author">
                   <div class="footer__author-avatar">
-                    <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+                    <img class="lazy" data-src="{{site.data.settings.logo_full}}" alt="{{site.data.settings.author.author__name}}">
                   </div>
                   <div class="footer__author-info">
-                    <h3 class="footer__author-name">{{site.data.settings.author.author__name}}</h3>
-                    <p class="footer__author-bio">{{site.data.settings.author.author__bio}}</p>
-                    {% if site.data.settings.social %}
-                    <div class="social">
-                      <ul class="social__list list-reset">
-                        {% for social in site.data.settings.social %}
-                        <li class="social__item">
-                          <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener"
-                            aria-label="Social link"><i class="ion {{social.icon}}"></i></a>
-                        </li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                    {% endif %}
+                    <h3 class="footer__author-name">בינושקה שולחנות אירוח</h3>
+                    <p class="footer__author-bio">
+
+                                              
+                    </p>
+                    <p>
+                    {% include social-nav.html %}
+                    </p>
                   </div>
                 </div>
               </div>
       
-              <div class="col col-4 col-d-12">
+              <div class="col col-2 col-d-12">
                 <div class="footer__nav">
-                  <h3 class="footer__nav-title">Navigation</h3>
                   <ul class="footer__nav-list list-reset">
                     {% for item in site.data.settings.footer_menu__settings.menu__items %}
                     <li class="footer__nav-item">
@@ -71,7 +64,7 @@
       <div class="col col-12">
         <div class="footer__info">
           <div class="footer__info-box">
-            <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+            <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a></div>
             <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
           </div>
         </div>

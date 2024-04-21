@@ -217,7 +217,7 @@
     margin-bottom: 0;
 
     &:last-child {
-      margin-right: 0;
+      margin-left: 0;
     }
 
     .nav__link {
@@ -387,7 +387,7 @@
   @media only screen and (max-width: $desktop) {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    // margin-left: auto;
     font-size: 24px;
 
     .icon__menu {

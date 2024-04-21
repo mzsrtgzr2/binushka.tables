@@ -10,6 +10,24 @@ $mobile:  576px;
 
 $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
+
+// .section {
+//   @media only screen and (max-width: $wide) {
+//     margin-top: 18%;
+//     margin-bottom: 18%;
+//   }
+
+//   @media only screen and (max-width: $desktop) {
+//     margin-top: 15%;
+//     margin-bottom: 15%;
+//   }
+
+//   @media only screen and (max-width: $tablet) {
+//     margin-top: 10%;
+//     margin-bottom: 10%;
+//   }
+// }
+
 .container {
   max-width: $container-base-width;
   padding-left: $container-offset;
@@ -153,4 +171,20 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
     }
   }
 
+}
+
+.m-t-2 {
+  margin-top: 2rem;
+}
+
+.m-t-3 {
+  margin-top: 3rem;
+}
+
+.m-t-4 {
+  margin-top: 4rem;
+}
+
+.m-t-5 {
+  margin-top: 5rem;
 }

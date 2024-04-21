@@ -1,32 +1,64 @@
 ---
 layout: page
-title: About
+title: קצת עליי
 permalink: /about/
-image: '/images/01-2.jpg'
+
 ---
 
-Leverage agile frameworks to provide a robust Hugo Sousa synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<div class="row">
+<div class="col col-3">
+<div class="">
+    <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+    </div>
+</div>
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+<div class="col col-9">
+
+<p>
+שמי בינה ליר ואני אוהבת להאכיל אחרים.
+אני דור רביעי (וכנראה יותר) לאנשים שאוהבים לארח ולפנק אחרים.
+אני אוהבת שאין מקום על השולחן מרוב האוכל.
+ככה אמא שלי מארחת, ככה סבתא שלי אירחה וככה גם אמא שלה אירחה.
+</p>
+
+<p>
+בשנת 2016 סיימתי את לימודי הקונדיטוריה בבית הספר לקונדיטוריה של אסטלה.
+החלטתי לקחת את האהבה הזו לאירוח צעד קדימה ופתחתי את העסק הזה, בינושקה פותחת שולחן.
+אני אשמח לארח אתכם אצלכם בבית, בחצר, איפה שתבחרו.
+</p>
+<p>
+אפתח לכם שולחן מלא באוכל שהכנתי במו ידיי, מחומרי הגלם הכי טריים ואיכותיים שיש.
+את הגבינות אני קונה במעדנייה השכנותית, את הירקות מהירקן שמתחת לבית, את המאפים אני אופה בעצמי.
+אני מאמינה שכל בן אדם צריך לעבוד במה שהוא אוהב בשביל להיות מאושר.. ומה אני אגיד לכם? אני מאושרת.
+</p>
+
+<p>
+<a class="button button--primary" href="https://www.instagram.com/binushka13/" target="_blank">דברו איתי באינסטגרם</a>
+</p>
+
+</div>
+
+
+
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/100.jpg" loading="lazy">
-    <img src="/images/105.jpg" loading="lazy">
-    <img src="/images/103.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2364.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2384.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2399.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2444.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2454.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2466.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2471.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2484.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2495.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2505.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2513.jpg" loading="lazy">
+    <img src="/images/gallery/IMG_2338.jpg" loading="lazy">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-Completely synergize resource taxing relationships via premier niche markets. Cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
+</div>
 
-![Sea]({{site.baseurl}}/images/106.jpg)
-*Photo by [Alyssa Strohmann](https://unsplash.com/photos/2r2RUsEU1Aw) on [Unsplash](https://unsplash.com/)*
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.

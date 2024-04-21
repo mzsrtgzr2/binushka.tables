@@ -11,6 +11,10 @@
   }
 }
 
+.gallery-box-main {
+  margin: 17px -100px 32px -100px;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, auto);

@@ -3,6 +3,7 @@
 }
 
 body {
+  direction: rtl;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -75,7 +76,6 @@ blockquote {
   font-family: $heading-font-family;
   font-size: 32px;
   line-height: 1.6;
-  font-weight: 900;
   color: var(--heading-font-color);
 
   &::after {
@@ -228,4 +228,8 @@ table td {
 
 .lightense-backdrop {
   background-color: var(--background-color) !important;
+}
+
+.text-center {
+  text-align: center;
 }

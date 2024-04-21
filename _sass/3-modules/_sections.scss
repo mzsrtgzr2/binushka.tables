@@ -8,6 +8,11 @@
   }
 }
 
+.section-w-color {
+  color: var(--dark);
+  background-color: var(--brand-color);
+}
+
 .section__info {
   max-width: 530px;
   margin: 0 auto 48px;

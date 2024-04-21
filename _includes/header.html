@@ -43,9 +43,11 @@
         </nav>
 
         <div class="nav-button">
+          {% include social-nav.html %}
+
           <i class="nav__icon icon__menu ion ion-md-menu"></i>
 
-          {% if site.data.settings.color_scheme == "auto" %}
+          <!-- {% if site.data.settings.color_scheme == "auto" %}
           <div class="toggle-theme toggle-theme-js">
             <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
             <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
@@ -63,7 +65,7 @@
             <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
             <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
           </div>
-          {% endif %}
+          {% endif %}  -->
         </div>
 
       </div>

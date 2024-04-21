@@ -1,12 +1,108 @@
 ---
 layout: default
 image: '/images/01.jpg'
+
+accordion: 
+    - title: מה כולל השירות?
+      content: השירות כולל אוכל מגוון בעבודת יד שלי במיוחד עבורכם,צלחות הגשה, מפה, אגרטלים, פרחים וכפות הגשה.
+    - title: כמה זמן מראש צריך לסגור תאריך?
+      content: כמה שיותר זמן מראש, על מנת שאוכל להתחייב עבורכם. אני לא פותחת יותר משולחן אחד ביום.
+    - title: שמעי זה נראה מדהים, החלטתי שאני רוצה שתפתחי לי שולחן ביום ההתארגנות! מה לעשות?
+      content: שלחי לי וואטספ, נקבע שיחה קצרה בה נכיר ואשאל אותך כמה שאלות בסיסיות בשביל לדעת להתאים את האוכל עבורכם - רגישויות, כמות אנשים, מיקום וכו'.
+    - title: האם יש משהו שאני בכל זאת צריכה לדאוג עבורו?
+      content: כן, לשולחן. ולהנות. 🙂
+    - title: עבור כמה אנשים מספיק השולחן?
+      content: שולחן בסיסי מספיק ל10 אנשים לפחות.
+    - title: האם יש אופציה להוסיף עוד אוכל?
+      content: בטח, יש תפריט תוספות. כל מנה מתומחרת ותוכלי להוסיף מה וכמה שבא לך.
+    - title: האם האוכל כשר?
+      content: לא.
+    - title: האם ניתן לשנות את התפריט לפי הטעמים האישיים שלנו?
+      content: כן.
+    - title: האם יש מנות טבעוניות?
+      content: ברור.
+    - title: האם יש מנות ללא גלוטן?
+      content: בטח.
+    - title: האם את פותחת שולחנות גם לא להתארגנות לחתונה?
+      content: כןןןן. דברו איתי בשמחה:) בוקר חברות, הרמת כוסית במשרד, פיקניק משפחתי. אשמח להיות חלק מהכיף שלכם. רק תמצאו תירוץ.
 ---
 
 {% include section-hero.html %}
 
+
+<section class="container ">
+
+    <div class="footer__author">
+        <div class="footer__author-avatar m-t-4">
+          <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+        </div>
+        <div class="footer__author-info m-t-4">
+            <h3 class="footer__author-name">נעים מאוד - אני בינושקה </h3>
+            <blockquote class="blockquote">
+                <p class="">
+        
+                אפתח לכם שולחן מלא באוכל שהכנתי במו ידיי, מחומרי הגלם הכי טריים ואיכותיים שיש. את הגבינות אני קונה במעדנייה השכנותית, את הירקות מהירקן שמתחת לבית, את המאפים אני אופה בעצמי.
+                </p>
+            </blockquote>
+          
+        </div>
+      </div>
+
+    <div class="container row m-t-3">
+        <div class="col col-6">
+            <video width="320" height="600" autoplay muted loop >
+                <source src="/images/bina-vid.mp4" type="video/mp4">
+                <source src="/images/bina-vid.mov" type="video/mov">
+                
+              Your browser does not support the video tag.
+              </video>
+        </div>
+        <div class="col col-6">
+
+            <div class="gallery-box-main">
+                <div class="gallery">
+                <img src="/images/gallery/IMG_2364.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2384.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2399.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2444.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2454.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2466.jpg" loading="lazy">
+
+                <img src="/images/gallery/IMG_2471.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2484.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2495.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2505.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2513.jpg" loading="lazy">
+                <img src="/images/gallery/IMG_2338.jpg" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 {% include section-projects.html %}
 
-{% include section-testimonials.html %}
+<section class="container section">
+<div class="text-center animate">
+    <h3 class="hero__title">שאלות נפוצות</h3>
+</div>
+{% include section-accordion.html %}
+</section>
 
-{% include section-blog.html %}
+<section class="container section text-center">
+
+    <div class="text-center animate">
+        <h3 class="hero__title">אז...</h3>
+        </div>
+
+    <div class="section__navigation">
+        <a href="https://wa.me/972544247753?text=הי בינושקה :) " class="button button--primary section-button">שנפתח שולחן?</a>
+    </div>
+    <div class="text-center">
+        <img class="m-t-2" loading="lazy" src="/images/gallery/IMG_2358.jpg" />
+    </div>
+</section>
+
+
+<!-- {_% include section-blog.html %_} -->
