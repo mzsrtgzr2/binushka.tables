@@ -10,6 +10,7 @@
 
     @media only screen and (max-width: $desktop) {
       padding: 100px 0 32px;
+      text-align: center;
     }
   }
 }
@@ -78,8 +79,7 @@
   }
 
   @media only screen and (max-width: $desktop) {
-    margin-right: 0;
-    margin-bottom: 20px;
+    display: none;
   }
 }
 
