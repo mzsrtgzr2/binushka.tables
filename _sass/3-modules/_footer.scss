@@ -147,7 +147,7 @@
   text-align: right;
 
   @media only screen and (max-width: $desktop) {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -159,6 +159,7 @@
 
 .footer__nav-list {
   line-height: 1;
+  text-align: center;
 
   .footer__nav-item {
     margin-bottom: 20px;
@@ -175,7 +176,6 @@
   }
 
   @media only screen and (max-width: $desktop) {
-    display: flex;
     flex-wrap: wrap;
 
     .footer__nav-item {
