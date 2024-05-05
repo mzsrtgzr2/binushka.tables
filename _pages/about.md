@@ -55,6 +55,12 @@ permalink: /about/
       <img src="/images/gallery/IMG_2505.jpg" loading="lazy">
       <img src="/images/gallery/IMG_2513.jpg" loading="lazy">
       <img src="/images/gallery/IMG_2338.jpg" loading="lazy">
+      <img src="/images/gallery2/img2.jpeg" loading="lazy">
+      <img src="/images/gallery2/img3.jpeg" loading="lazy">
+      <img src="/images/gallery2/img4.jpeg" loading="lazy">
+      <img src="/images/gallery2/img5.jpeg" loading="lazy">
+      <img src="/images/gallery2/img8.jpeg" loading="lazy">
+      <img src="/images/gallery2/img9.jpeg" loading="lazy">
     </div>
   </div>
 </div>
