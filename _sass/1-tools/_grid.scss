@@ -188,3 +188,20 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 .m-t-5 {
   margin-top: 5rem;
 }
+
+
+.only-mobile {
+  display: none;
+
+  @media only screen and (max-width: $mobile) {
+    display: block;
+  }
+}
+
+.only-non-mobile {
+  display: none;
+
+  @media only screen and (min-width: $mobile) {
+    display: block;
+  }
+}
