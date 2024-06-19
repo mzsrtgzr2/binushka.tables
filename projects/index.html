@@ -35,13 +35,25 @@ description:
   <div class="row m-t-4">
     <div class="col col-12">
       
-      <div class="text-center animate">
-        <h3 class="hero__title">תפריט לדוגמא</h3>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#example-menu" type="button" role="tab" aria-controls="home" aria-selected="true">תפריט לדוגמא</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#gluten-free-menu" type="button" role="tab" aria-controls="profile" aria-selected="false">תפריט ללא גלוטן</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="example-menu" role="tabpanel" aria-labelledby="home-tab">
+          <img class="m-t-2 menu-border" loading="lazy" src="/images/menu-example.jpg" />
+        </div>
+        <div class="tab-pane fade show active" id="gluten-free-menu" role="tabpanel" aria-labelledby="home-tab">
+          <img class="m-t-2 menu-border" loading="lazy" src="/images/gluten-free-menu.jpg" />
+        </div>
       </div>
-      <div class="text-center">
-        <img class="m-t-2" loading="lazy" src="/images/menu-example.jpg" />
+
     </div>
-    </div>
+    
   </div>
 </div>
 
